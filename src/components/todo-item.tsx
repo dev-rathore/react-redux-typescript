@@ -1,7 +1,7 @@
 import React from "react";
 import { useDispatch } from "react-redux";
-import { toggleTodo } from "../actions/todoActions";
-import { Todo } from "../types/todoTypes";
+import { toggleTodo } from "../actions/todo.actions";
+import { Todo } from "../types/todo.types";
 
 interface TodoItemProps {
   todo: Todo;

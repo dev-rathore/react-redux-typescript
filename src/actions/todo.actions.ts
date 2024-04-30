@@ -1,4 +1,4 @@
-import { TodoAction, TodoActionType } from "../types/todoTypes";
+import { TodoAction, TodoActionType } from "../types/todo.types";
 
 // Whenever we call an action, reducer executes and gives us the desired result
 

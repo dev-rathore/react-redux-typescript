@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { fetchTodos } from "../actions/todoActions";
-import { TodoState } from "../types/todoTypes";
-import TodoItem from "./TodoItem";
+import { fetchTodos } from "../actions/todo.actions";
+import { TodoState } from "../types/todo.types";
+import TodoItem from "./todo-item";
 
 const TodoList: React.FC = () => {
   const dispatch = useDispatch();
@@ -10,7 +10,7 @@ const TodoList: React.FC = () => {
 
   useEffect(() => {
     dispatch(fetchTodos());
-  }, [dispatch]);
+  }, []);
 
   return (
     <div>

@@ -1,6 +1,6 @@
-import AddTodo from "./AddTodo";
-import TodoItem from "./TodoItem";
-import TodoList from "./TodoList";
+import AddTodo from "./add-todo";
+import TodoItem from "./todo-item";
+import TodoList from "./todo-list";
 
 export {
   AddTodo,
